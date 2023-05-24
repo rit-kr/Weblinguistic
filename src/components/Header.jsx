@@ -10,7 +10,7 @@ export default function Header() {
                     <div className="">
                         <NavLink
                             to="/home">
-                            <h1>git remote add origin https://github.com/rit-kr/Weblinguistic.git</h1>
+                            <h1>Weblinguistic</h1>
                         </NavLink>
                     </div>
                     <div className="">

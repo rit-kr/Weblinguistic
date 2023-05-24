@@ -4,7 +4,7 @@ export default function HomePortfolio() {
             <h3 className="my-4 text-center text-4xl">Portfolio</h3>
             <div className="max-w-6xl my-0 mx-auto py-4 flex justify-between  items-center flex-wrap ">
                 <div className="basis-1/4 mx-2">
-                    <div className="">
+                    <div className="hover:translate-y-1">
                         <img src="../../../image/web.jpg" alt="main pic" />
                     </div>
                     <div className="text-center">
@@ -15,7 +15,7 @@ export default function HomePortfolio() {
                     </div>
                 </div>
                 <div className="basis-1/4 mx-2">
-                    <div className="">
+                    <div className="hover:translate-y-1">
                         <img src="../../../image/web.jpg" alt="main pic" />
                     </div>
                     <div className="text-center">
@@ -25,7 +25,7 @@ export default function HomePortfolio() {
                         </p>
                     </div>
                 </div><div className="basis-1/4 mx-2">
-                    <div className="">
+                    <div className="hover:translate-y-1">
                         <img src="../../../image/web.jpg" alt="main pic" />
                     </div>
                     <div className="text-center">
@@ -35,7 +35,7 @@ export default function HomePortfolio() {
                         </p>
                     </div>
                 </div><div className="basis-1/4 mx-2">
-                    <div className="">
+                    <div className="hover:translate-y-1">
                         <img src="../../../image/web.jpg" alt="main pic" />
                     </div>
                     <div className="text-center">
@@ -45,7 +45,7 @@ export default function HomePortfolio() {
                         </p>
                     </div>
                 </div><div className="basis-1/4 mx-2">
-                    <div className="">
+                    <div className="hover:translate-y-1">
                         <img src="../../../image/web.jpg" alt="main pic" />
                     </div>
                     <div className="text-center">
@@ -55,7 +55,7 @@ export default function HomePortfolio() {
                         </p>
                     </div>
                 </div><div className="basis-1/4 mx-2">
-                    <div className="">
+                    <div className="hover:translate-y-1">
                         <img src="../../../image/web.jpg" alt="main pic" />
                     </div>
                     <div className="text-center">

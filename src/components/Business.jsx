@@ -3,6 +3,7 @@ import { BiMobile } from "react-icons/bi";
 import { HiOutlineTranslate } from "react-icons/hi";
 import { SiMoleculer } from "react-icons/si";
 import { GrHostMaintenance } from "react-icons/gr";
+import { TbSeo } from "react-icons/tb";
 
 
 
@@ -44,10 +45,10 @@ export default function Business() {
                 </div>
                 <div className="basis-2/5 ">
                     <div  className="">
-                        <BsLaptop  className="text-3xl"/>
+                        <TbSeo  className="text-3xl"/>
                         {/* <BiMobile /> */}
                     </div>
-                    <p className="text-lg pb-4">Website</p>
+                    <p className="text-lg pb-4">Coming soon...</p>
                 </div>
             </div>
         </>
