@@ -28,13 +28,13 @@ export default function Contact() {
             <h4 className="text-xl my-4 self-center">Contact us</h4>
             <div className="">
               <form className="flex flex-col" ref={form} onSubmit={sendEmail}>
-                <label className="text-base">Name</label>
-                <input className="text-gray-800 p-2 outline rounded " type="text" name="from_name"  placeholder="Please enter your name"/>
-                <label className="text-base">Email</label>
-                <input className="text-gray-800 p-2  outline rounded" type="email" name="from_email" placeholder="Please enter your email"/>
-                <label className="text-base">Message</label>
-                <textarea  className=" text-gray-800 text-blue-600/70 p-2 outline rounded"name="message"rows={4} placeholder="Please enter your message" />
-                <button className="text-blue-600/70 my-2 py-1 outline rounded" htmlType="submit" value="Send">Submit</button>
+                <label className=" py-2 text-base">Name</label>
+                <input className=" text-gray-800 p-2 outline rounded " type="text" name="from_name"  placeholder="Please enter your name"/>
+                <label className=" py-2 text-base">Email</label>
+                <input className=" text-gray-800 p-2  outline rounded" type="email" name="from_email" placeholder="Please enter your email"/>
+                <label className=" py-2 text-base">Message</label>
+                <textarea  className="text-gray-800 text-blue-600/70 p-2 outline rounded"name="message"rows={4} placeholder="Please enter your message" />
+                <button className="my-4 text-fuchsia-600 my-2 py-1 outline rounded" htmlType="submit" value="Send">Submit</button>
               </form>
             </div>
           </div>

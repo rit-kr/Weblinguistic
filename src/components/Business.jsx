@@ -13,7 +13,7 @@ import { TbSeo } from "react-icons/tb";
 export default function Business() {
     return (
         <>
-            <div className="my-4 text-center">
+            <div className="my-4 py-4 text-center bg-gray-50">
 
                 <h3 className="my-4 text-4xl">Business</h3>
                 <div className="max-w-4xl my-0 mx-auto py-4 flex justify-between  items-center">

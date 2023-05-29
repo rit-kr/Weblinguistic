@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 export default function Header() {
     return (
         <>
-            <div className="bg-gray-50 sticky top-0">
-                <div className="max-w-6xl my-0 mx-auto py-4 flex justify-between  items-center">
+            <div className="bg-gray-200 sticky top-0">
+                <div className="max-w-6xl my-0 mx-auto py-6 flex justify-between  items-center text-fuchsia-600">
                     <div className="">
                         <NavLink
                             to="/home">
@@ -18,31 +18,31 @@ export default function Header() {
 
                             <NavLink
                                 to="/website"
-                                className="pr-2"
+                                className="pr-6"
                             >
-                                website
+                                Website
                             </NavLink>
                             <NavLink
                                 to="/localization"
-                                className="pr-2"
+                                className="pr-6"
                             >
                                 Localization
                             </NavLink>
-                            <NavLink
+                            {/* <NavLink
                                 to="/maintenance"
-                                className="pr-2"
+                                className="pr-6"
                             >
                                 Maintenance
-                            </NavLink>
-                            <NavLink
+                            </NavLink> */}
+                            {/* <NavLink
                                 to="/portfolio"
-                                className="pr-2"
+                                className="pr-6"
                             >
                                 Portfolio
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink
                                 to="/contact"
-                                className="pr-2"
+                                className="pr-6"
                             >
                                 Contact US
                             </NavLink>

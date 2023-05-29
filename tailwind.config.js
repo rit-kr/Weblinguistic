@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      'typing': "url('../public/image/background.gif')",
+      'typing': "url('../public/image/background.jpg')",
     },
     // extend: {},
   },
