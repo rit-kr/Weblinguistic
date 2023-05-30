@@ -18,7 +18,7 @@ export default function Main() {
     return (
         <>
             <div className="bg-typing bg-no-repeat bg-cover">
-                <div className="max-w-6xl my-0 mx-auto pt-40 py-60 flex justify-between  items-center">
+                <div className="max-w-6xl my-0 mx-auto pt-40 py-80 flex justify-between  items-center">
                     <div className="basis-2/5 text-white">
                         <h2 className="text-4xl pb-4">Make beautiful website for any device, in <span>{textChanges}</span></h2>
                         <p className="text-lg pb-4">

@@ -11,10 +11,16 @@ export default function Footer() {
                             to="/home">
                             <h1>Weblinguistic</h1>
                         </NavLink>
-                        <p>Dwarka sector 14</p>
-                        <p>New Delhi, India</p>
+                        <p className="pt-1">Dwarka sector-14,</p>
+                        <p className="pt-1">New Delhi, India</p>
                     </div>
-                    <p className="text-center">Designed@<span className="text-blue">Rit</span></p>
+                    <div>
+                        <p className="pt-1 "> Designed@<span className="text-blue">Rit</span>©2023</p>
+                        <p className="pt-1 ">Website design,</p>
+                        <p className="pt-1 ">localization,</p>
+                        <p className="pt-1 ">web hosting</p>
+
+                    </div>
                 </div>
             </div>
         </>
