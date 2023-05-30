@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="">
                         <NavLink
                             to="/home">
-                            <h1>Weblinguistic</h1>
+                            <img className="w-20 h-20 rounded-full" src="../../../image/rit_weblingo.png" alt="" />
                         </NavLink>
                         <p className="pt-1">Dwarka sector-14,</p>
                         <p className="pt-1">New Delhi, India</p>

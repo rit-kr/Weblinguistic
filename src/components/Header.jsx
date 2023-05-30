@@ -10,7 +10,7 @@ export default function Header() {
                     <div className="">
                         <NavLink
                             to="/home">
-                            <h1>Weblinguistic</h1>
+                            <img className="w-20 h-20 rounded-full" src="../../../image/rit_weblingo.png" alt="" />
                         </NavLink>
                     </div>
                     <div className="">
