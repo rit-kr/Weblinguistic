@@ -16,8 +16,8 @@ export default function Business() {
             <div className="my-4 py-4 text-center bg-gray-50">
 
                 <h3 className="my-4 text-4xl">Business</h3>
-                <div className="max-w-4xl my-0 mx-auto py-4 flex justify-between  items-center">
-                    <div className="basis-2/5 ">
+                <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-4 flex justify-between  items-center xxs:max-md:flex-col">
+                    <div className="basis-2/5">
                         <BsLaptop className="mx-auto text-4xl text-fuchsia-500" />
                         <p className="text-lg py-4">Web/Mobile</p>
                     </div>

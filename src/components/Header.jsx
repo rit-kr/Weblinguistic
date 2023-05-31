@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <>
             <div className="bg-gray-200 sticky top-0">
-                <div className="max-w-6xl my-0 mx-auto py-6 flex justify-between  items-center text-fuchsia-600">
+                <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs  my-0 mx-auto py-4 flex justify-between  items-center text-fuchsia-600">
                     <div className="">
                         <NavLink
                             to="/home">

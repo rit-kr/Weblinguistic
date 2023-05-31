@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export default function Website() {
     return (
         <>
-            <div className="max-w-6xl my-0 mx-auto py-4 ">
+            <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs  my-0 mx-auto py-4 ">
                 <div className="text-center py-2 my-8">
                     <p className="py-2 text-2xl">Create your own website at anytime in any language</p>
                     <p>Select from any of our industry-leading website templates, designer fonts, and color palettes that best fit your personal style and professional needs.</p>
@@ -75,8 +75,8 @@ export default function Website() {
                             </div>
                         </div>
                     </div> */}
-                    <div className="max-w-6xl my-0 mx-auto py-4 flex justify-between  items-center flex-wrap ">
-                <div className="basis-1/4 mx-2">
+                    <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-4 flex justify-between  items-center flex-wrap ">
+                <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
                     <div className="hover:translate-y-1 shadow-xl">
                         <img src="../../../image/site1.png" alt="main pic" />
                     </div>
@@ -87,7 +87,7 @@ export default function Website() {
                         </p>
                     </div>
                 </div>
-                <div className="basis-1/4 mx-2">
+                <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
                     <div className="hover:translate-y-1 ">
                         <img className="" src="../../../image/site2.png" alt="main pic" />
                     </div>
@@ -98,7 +98,7 @@ export default function Website() {
                         </p>
                     </div>
                 </div>
-                <div className="basis-1/4 mx-2">
+                <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
                     <div className="hover:translate-y-1 shadow-xl rounded-xl">
                         <img className="" src="../../../image/site3.jpg" alt="main pic" />
                     </div>
@@ -111,7 +111,7 @@ export default function Website() {
                 </div>
             </div>
             <div className="max-w-6xl my-0 mx-auto py-4 flex justify-between  items-center flex-wrap ">
-                <div className="basis-1/4 mx-2">
+                <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
                     <div className="hover:translate-y-1 shadow-xl">
                         <img src="../../../image/site1.png" alt="main pic" />
                     </div>
@@ -122,7 +122,7 @@ export default function Website() {
                         </p>
                     </div>
                 </div>
-                <div className="basis-1/4 mx-2">
+                <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
                     <div className="hover:translate-y-1 ">
                         <img className="" src="../../../image/site2.png" alt="main pic" />
                     </div>
@@ -133,7 +133,7 @@ export default function Website() {
                         </p>
                     </div>
                 </div>
-                <div className="basis-1/4 mx-2">
+                <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
                     <div className="hover:translate-y-1 shadow-xl rounded-xl">
                         <img className="" src="../../../image/site3.jpg" alt="main pic" />
                     </div>

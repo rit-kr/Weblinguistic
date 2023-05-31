@@ -9,11 +9,11 @@ export default function Localization() {
     return (
         <>
             <div className="">
-                <div className="max-w-6xl my-0 mx-auto py-12">
-                    <div className="flex justify-between items-center">
-                        <div className="basis-2/5">
-                            <p className="text-2xl ">You think your business is ready for international growth</p>
-                            <p className="py-4">
+                <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-12">
+                    <div className="flex justify-between items-center xxs:max-lg:flex-col">
+                        <div className="basis-2/5 px-3 xxs:max-lg:basis-full">
+                            <p className="text-2xl xs:max-md:text-xl xxs:max-md:text-lg ">You think your business is ready for international growth</p>
+                            <p className="py-4  xs:max-md:text-md xxs:max-md:text-sm">
                                 website localization enables you to connect with a global audience, deliver personalized experiences, and drive business growth in international markets
                             </p>
                         </div>
@@ -25,8 +25,8 @@ export default function Localization() {
                 <div className="bg-gray-50">
                     <div className="max-w-6xl my-0 mx-auto">
                         <div className="text-center py-8">
-                            <p className="text-4xl my-6">Why do we need localization</p>
-                            <ul className="flex flex-wrap">
+                            <p className="text-4xl my-6 xxs:max-md:text-xl">Why do we need localization</p>
+                            <ul className="flex flex-wrap xxs:max-lg:flex-col">
                                 <li className="basis-2/6 my-4">
                                     <BsGlobeAmericas className="mx-auto text-4xl text-fuchsia-500" />
                                     <h2 className="text-lg py-2">Expansion</h2>
