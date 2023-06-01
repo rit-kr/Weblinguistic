@@ -26,13 +26,13 @@ export default function HomePortfolio() {
                     </div>
                 </div>
                 <div className="basis-1/4 xxs:max-lg:basis-full mx-2">
-                    <div className="shadow-xl rounded-xl">
-                        <img className="" src="../../../image/site3.jpg" alt="main pic" />
+                    <div className=" shadow-xl">
+                        <img src="../../../image/site1.png" alt="main pic" />
                     </div>
-                    <div className="text-center pt-10">
-                        <h2 className="py-1">Health care</h2>
+                    <div className="text-center py-2">
+                        <h2 className="py-1">E commerce</h2>
                         <p className="mb-2">
-                            Professional website that looks stunning for your health care.
+                            Professional website that looks stunning for Ecommerce.
                         </p>
                     </div>
                 </div>
