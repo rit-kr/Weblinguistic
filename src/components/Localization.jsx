@@ -9,15 +9,15 @@ export default function Localization() {
     return (
         <>
             <div className="">
-                <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-12">
-                    <div className="flex justify-between items-center xxs:max-lg:flex-col">
-                        <div className="basis-2/5 px-3 xxs:max-lg:basis-full">
+                <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-10">
+                    <div className="flex justify-between items-center xxs:max-lg:flex-col-reverse">
+                        <div className="basis-2/5 px-3 xxs:max-lg:basis-full m-4">
                             <p className="text-2xl xs:max-md:text-xl xxs:max-md:text-lg ">You think your business is ready for international growth</p>
                             <p className="py-4  xs:max-md:text-md xxs:max-md:text-sm">
                                 website localization enables you to connect with a global audience, deliver personalized experiences, and drive business growth in international markets
                             </p>
                         </div>
-                        <div className="">
+                        <div className="sm:hidden xs:hidden xxs:hidden">
                             <img src="../../../image/social_language.png" alt="language pic" />
                         </div>
                     </div>
