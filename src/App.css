@@ -7,6 +7,37 @@
 }
 
 .navbartheme {
-  background-color: gray !important;
+  background-color: rgba(234, 231, 231, 0.206) !important;
   width: 100% !important;
 }
+
+/* Portfolio opacity */
+
+.img_wrap {
+  position: relative;
+}
+
+.img_preview {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(140, 142, 142, 0.378);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+.img_preview_tag{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+.img_wrap:hover .img_preview {
+  visibility: visible;
+  opacity: 2;
+}
+

@@ -22,7 +22,7 @@ export default function Contact() {
 
   return (
     <>
-      <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-4">
+      <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs my-0 mx-auto py-4 px-2">
         <div className="flex flex-col items-center">
           <h3 className=" text-3xl p1/y my-8">Reach out to us</h3>
           <p className="basis-2/5 text-lg my-2">Want to discuss a project/up for any work, or just want to say Hello? We are just a click away</p>

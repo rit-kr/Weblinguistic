@@ -9,11 +9,11 @@ import logo from '../assets/img/rit_weblingo.png'
 export default function Header() {
     return (
         <>
-            <Navbar bg="light" expand="lg" className='navbartheme px-4'>
+            <Navbar bg="light" expand="lg" className='navbartheme fixed top-0 px-4'>
             <Container>
                 <Navbar.Brand href="/">
-                    <img src={logo} alt="Logo" className="d-inline-block align-top me-2 w-20 h-20 rounded-full" />
-                    {/* <Nav.Link className='px-6' href="/">Rit weblingo</Nav.Link> */}
+                    {/* <img src={logo} alt="Logo" className="d-inline-block align-top me-2 w-20 h-20 rounded-full" /> */}
+                    <Nav.Link className='px-4 py-2' href="/">Rit weblingo</Nav.Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
@@ -25,39 +25,6 @@ export default function Header() {
                 </Navbar.Collapse>
                 </Container>
             </Navbar>
-            {/* <div className="max-w-6xl xl:max-w-4xl lg:max-w-3xl md:max-w-xl sm:max-w-md xs:max-w-sm xxs:max-w-xs  my-0 mx-auto py-4 flex justify-between  items-center text-fuchsia-600">
-                    <div className="">
-                        <NavLink
-                            to="/home">
-                            <img className="w-20 h-20 rounded-full" src="../../../image/rit_weblingo.png" alt="" />
-                        </NavLink>
-                    </div>
-                    <div className="">
-                        <nav>
-
-                            <NavLink
-                                to="/website"
-                                className="pr-6"
-                            >
-                                Website
-                            </NavLink>
-                            <NavLink
-                                to="/localization"
-                                className="pr-6"
-                            >
-                                Localization
-                            </NavLink>
-
-                            
-                            <NavLink
-                                to="/contact"
-                                className="pr-6"
-                            >
-                                Contact US
-                            </NavLink>
-                        </nav>
-                    </div>
-                </div> */}
         </>
     )
 }

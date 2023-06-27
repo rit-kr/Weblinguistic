@@ -17,7 +17,7 @@ export default function Localization() {
                                 website localization enables you to connect with a global audience, deliver personalized experiences, and drive business growth in international markets
                             </p>
                         </div>
-                        <div className="sm:hidden xs:hidden xxs:hidden">
+                        <div className="xxs:max-md:hidden">
                             <img src="../../../image/social_language.png" alt="language pic" />
                         </div>
                     </div>
